@@ -9,7 +9,7 @@ public class MouseClick : MonoBehaviour
     private void OnMouseDown()
     {
         ObjPooling.Instance.AddToPool(gameObject);
-        FindObjectOfType<SoundManager>().Play("Gun"); //change
+        FindObjectOfType<SoundManager>().Play("Gun"); 
       
         Destroy(bird);
   
